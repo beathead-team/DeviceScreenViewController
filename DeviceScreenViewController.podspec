@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author             = { "Pavel Marchenko" => "pgmarchenko@gmail.com" }
 
   s.platform     = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
 
   s.source       = { :git => "https://github.com/pgmarchenko/DeviceScreenViewController.git", :tag => s.version.to_s }
 
