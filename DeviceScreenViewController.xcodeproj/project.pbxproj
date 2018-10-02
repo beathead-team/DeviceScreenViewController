@@ -10,6 +10,8 @@
 		7F0AD5C82163B79800F85828 /* DeviceScreenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0AD5C62163B79800F85828 /* DeviceScreenViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F0AD5CF2163B7DF00F85828 /* DeviceScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0AD5CE2163B7DF00F85828 /* DeviceScreenViewController.swift */; };
 		7F0AD5D22163B86700F85828 /* CGRectHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0AD5D12163B86700F85828 /* CGRectHelpers.swift */; };
+		7F0AD5D92164159900F85828 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0AD5D72164159900F85828 /* Device.swift */; };
+		7F0AD5DA2164159900F85828 /* ViewControllerWithStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0AD5D82164159900F85828 /* ViewControllerWithStatusBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		7F0AD5C72163B79800F85828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F0AD5CE2163B7DF00F85828 /* DeviceScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreenViewController.swift; sourceTree = "<group>"; };
 		7F0AD5D12163B86700F85828 /* CGRectHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectHelpers.swift; sourceTree = "<group>"; };
+		7F0AD5D72164159900F85828 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		7F0AD5D82164159900F85828 /* ViewControllerWithStatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWithStatusBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		7F0AD5D02163B7E600F85828 /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				7F0AD5D72164159900F85828 /* Device.swift */,
+				7F0AD5D82164159900F85828 /* ViewControllerWithStatusBar.swift */,
 				7F0AD5CE2163B7DF00F85828 /* DeviceScreenViewController.swift */,
 				7F0AD5D12163B86700F85828 /* CGRectHelpers.swift */,
 			);
@@ -145,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0AD5DA2164159900F85828 /* ViewControllerWithStatusBar.swift in Sources */,
+				7F0AD5D92164159900F85828 /* Device.swift in Sources */,
 				7F0AD5CF2163B7DF00F85828 /* DeviceScreenViewController.swift in Sources */,
 				7F0AD5D22163B86700F85828 /* CGRectHelpers.swift in Sources */,
 			);
