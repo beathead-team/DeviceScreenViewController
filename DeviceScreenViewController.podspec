@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/pgmarchenko/DeviceScreenViewController.git", :tag => s.version.to_s }
 
-  s.source_files  = "sources/**/*.swift"
+  s.source_files  = "DeviceScreenViewController/sources/**/*.swift"
 
   s.framework = "UIKit"
   s.framework = "CoreGraphics"
