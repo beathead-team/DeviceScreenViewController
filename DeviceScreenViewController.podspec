@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "DeviceScreenViewController"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "DeviceScreenViewController helps to simulate device screen traits."
   s.description  = "DeviceScreenViewController helps to simulate device screen traits: status bar, safe area etc. It's pretty useful in playgrounds and screenshot generation."
   s.homepage     = "https://github.com/pgmarchenko/DeviceScreenViewController"

@@ -9,15 +9,15 @@
 import Foundation
 import CoreGraphics
 
-public extension CGRect {
-    public init(center: CGPoint, size: CGSize) {
+extension CGRect {
+    init(center: CGPoint, size: CGSize) {
         let origin = CGPoint(x: center.x - size.width/2,
                              y: center.y - size.height/2)
         
         self = CGRect(origin: origin, size: size)
     }
     
-    public var rb: CGPoint {
+    var rb: CGPoint {
         get {
             return CGPoint(x: self.origin.x + self.width,
                            y: self.origin.y + self.height)
@@ -27,11 +27,11 @@ public extension CGRect {
         }
     }
     
-    public var rectCenter: CGPoint {
+    var rectCenter: CGPoint {
         return CGPoint(x: midX, y: midY)
     }
     
-    public var center: CGPoint {
+    var center: CGPoint {
         get {
             return CGPoint(x: self.width / 2, y: self.height / 2)
         }
